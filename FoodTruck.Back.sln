@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-Api", "1-Api", "{A568116B-D727-430A-8CF7-0A7AECF374A8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-Bll", "2-Bll", "{500B6D2A-A0DD-44D2-ACB7-DCC710288550}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-Infrastructure", "3-Infrastructure", "{770E505E-B82A-4F32-A4B4-FAC958B10CEF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4-Domain", "4-Domain", "{7B722B92-4821-4D20-B5AF-4A236E5BF0EC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5-Tools", "5-Tools", "{5FE47895-2065-4A49-8C60-C943ABFF46DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodTruck.Bll", "FoodTruck.Bll\FoodTruck.Bll.csproj", "{C937BA3C-A775-4391-B2B3-0CCAAE7E5803}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodTruck.Infra", "FoodTruck.Infra\FoodTruck.Infra.csproj", "{CFC2021C-BE2E-42B9-B947-012A9831B937}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodTruck.Domain", "FoodTruck.Domain\FoodTruck.Domain.csproj", "{E1966888-AE6E-4D77-8D7E-AB40CE23C58A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodTruck.Tools", "FoodTruck.Tools\FoodTruck.Tools.csproj", "{2D441B95-4B45-431E-940A-79FE63BF8564}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodTruck.Api", "FoodTruck.Api\FoodTruck.Api.csproj", "{67A7F399-6F66-45CA-82CF-01B53A394550}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C937BA3C-A775-4391-B2B3-0CCAAE7E5803}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C937BA3C-A775-4391-B2B3-0CCAAE7E5803}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C937BA3C-A775-4391-B2B3-0CCAAE7E5803}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C937BA3C-A775-4391-B2B3-0CCAAE7E5803}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFC2021C-BE2E-42B9-B947-012A9831B937}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFC2021C-BE2E-42B9-B947-012A9831B937}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFC2021C-BE2E-42B9-B947-012A9831B937}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFC2021C-BE2E-42B9-B947-012A9831B937}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1966888-AE6E-4D77-8D7E-AB40CE23C58A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1966888-AE6E-4D77-8D7E-AB40CE23C58A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1966888-AE6E-4D77-8D7E-AB40CE23C58A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1966888-AE6E-4D77-8D7E-AB40CE23C58A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D441B95-4B45-431E-940A-79FE63BF8564}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D441B95-4B45-431E-940A-79FE63BF8564}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D441B95-4B45-431E-940A-79FE63BF8564}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D441B95-4B45-431E-940A-79FE63BF8564}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67A7F399-6F66-45CA-82CF-01B53A394550}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67A7F399-6F66-45CA-82CF-01B53A394550}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67A7F399-6F66-45CA-82CF-01B53A394550}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67A7F399-6F66-45CA-82CF-01B53A394550}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C937BA3C-A775-4391-B2B3-0CCAAE7E5803} = {500B6D2A-A0DD-44D2-ACB7-DCC710288550}
+		{CFC2021C-BE2E-42B9-B947-012A9831B937} = {770E505E-B82A-4F32-A4B4-FAC958B10CEF}
+		{E1966888-AE6E-4D77-8D7E-AB40CE23C58A} = {7B722B92-4821-4D20-B5AF-4A236E5BF0EC}
+		{2D441B95-4B45-431E-940A-79FE63BF8564} = {5FE47895-2065-4A49-8C60-C943ABFF46DC}
+		{67A7F399-6F66-45CA-82CF-01B53A394550} = {A568116B-D727-430A-8CF7-0A7AECF374A8}
+	EndGlobalSection
+EndGlobal
